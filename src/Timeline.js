@@ -19,7 +19,8 @@ function Timeline(){
             iconStyle={{ backgroundColor:"#fff"  }}
             icon={<i className="fa fa-book-open Icon" />}
         >
-    <h3 className="vertical-timeline-element-title" style={{fontWeight:"500"}}>Intern</h3>
+    {/* <Image src="../Midas.jpeg" style={{height:"100px"}}/> */}
+    <h3 className="vertical-timeline-element-title" style={{fontWeight:"500"}}>Undergraduate Researcher</h3>
     <h4 className="vertical-timeline-element-subtitle" style={{fontWeight:"500"}}>MIDAS IIIT-D</h4>
     <p >
         MIDAS is a research lab at IIITD led by Dr. Rajiv Ratn Shah. Currently, I am building my basics of ML and related areas.
@@ -35,7 +36,7 @@ function Timeline(){
     icon={<i className="fa fa-rocket Icon" />}
     // icon={<WorkIcon />}
   >
-  <h3 className="vertical-timeline-element-title" style={{fontWeight:"500" }}>Mars Colonisation Program by Microsoft</h3>
+  <h3 className="vertical-timeline-element-title" style={{fontWeight:"500" }}>Microsoft Engage 2020</h3>
     <p  >
         A program for students to learn Artificial Intelligence. 
         Made a tic-tac-toe game using the Minimax Algorithm.

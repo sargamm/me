@@ -7,16 +7,16 @@ function ProjectCard(props){
         <>
         <div className="ProjectCard" style={{width: props.width, height: props.height}} >
             <Image src={props.image} className="CardImage" />
-            <a href={props.link}><div className="overlay" onClick={() => setOpen(!open)} aria-controls="collapse-text"
-        aria-expanded={open} >
+            <div className="overlay" onClick={() => setOpen(!open)} aria-controls="collapse-text"
+            aria-expanded={open} >
                 <div className="CardText">{props.title}</div>
-            </div></a>
+            </div>
         </div>
         <Collapse in={open}>
         <div id="collapse-text">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-          labore wes anderson cred nesciunt sapiente ea proident.
+          <p style={{color:"#bebebe"}}>{props.description}</p>
+          <Button href={props.link}>Code</Button>
+          {props.deployed && <Button href={props.deployed}>Project</Button>}
         </div>
       </Collapse>
         </>

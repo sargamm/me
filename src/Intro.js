@@ -1,23 +1,23 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap'
+import {CSSTransitionGroup} from 'react-transition-group'
 function Intro(){
     return(
         <div className="Intro">
             <Row>
                 <Col sm={12}>
+                
+            <CSSTransitionGroup transitionName="example">
                 <div className="IntroTextBox">
-                    <p> Eversince I was a kid, I have been into creating and exploring. 
-                        Back then, I started creating art pieces, exploring techniques and now computer science gives me
-                        that sense of creation and a domain where I can explore endlessly.
-                        Currently, I am pursuing my Bachelors of Technology from Indraprastha Institute of Information Technolgy, New Delhi 
-                        in Computer Science and Applied Mathematics. I call myself a computer enthusiast 
-                        exploring and experimenting with ideas, oppurtunities and concepts. </p>
+                    <p>I am a budding technophile, exploring new horizons in life and experimenting with ideas. 
+                    For me, every concept is an expedition and every project a creation. 
+                    Currently, I am pursuing my Bachelors in Technology in Computer Science and Applied Mathematics. 
+                    As an optimist, I am confident enough that every problem has a way out and hard work never betrays.</p>
                 </div>
+                </CSSTransitionGroup>
                 </Col>
-                {/* <Col sm={1} className="sidebar">
-                <p></p>
-                </Col> */}
             </Row>
+            
         </div>
     )
 }

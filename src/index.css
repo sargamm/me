@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 500px;
+  overflow-x: hidden;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
